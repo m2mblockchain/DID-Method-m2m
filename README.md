@@ -1,1 +1,1 @@
-# m2m-DID
+# Smartm2m Decentrailzed Identifier
