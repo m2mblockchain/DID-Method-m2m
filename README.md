@@ -231,8 +231,7 @@ DID Document corresponding to Ex1) above is as follows.
 ### (1) What is ACCIO
 
 - ACCIO provides digital credential solutions for building the SSI ecosystem based on BaaS. This supports entities (Verifier/Holder/Issuer) to establish their own agents and infrastructure
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc1d0d27-bc44-4034-9cd8-998a9e5c9eec/3baf88a9-ce3c-49d5-a15b-bcc197f5c2e6/Untitled.png)
+    ![accio-did-overview#1](https://github.com/m2mblockchain/DID-Method-m2m/assets/130521354/e74a6edc-f42d-48c3-ac39-14d54e365d2b)
     
 - Core components
     - Agent
@@ -252,7 +251,8 @@ DID Document corresponding to Ex1) above is as follows.
         - A Scala-developed agent that adheres to Aries/W3C standards, offering multi-tenancy, DIDComm V2, HTTP event notifications, and Hyperledger Indy ledger integration. It also supports W3C-compliant DID methods, credential management (JWT and Anoncreds).
         - The self-agent supports BaaS-based BYOC/BYOS functionality.
             
-            ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/cc1d0d27-bc44-4034-9cd8-998a9e5c9eec/ccd90b5b-9c34-49e0-ad94-9237b3fe23ed/ac1bab8c-1352-498c-af92-28838ea2431b.png)
+        ![accio-did-#2](https://github.com/m2mblockchain/DID-Method-m2m/assets/130521354/eb47b74a-8c60-407d-a0f1-1270a90518c9)
+
             
     - Mediator support for DIDComm v2:
         - A decentralized communication protocol enabling secure and private messaging via DIDComm v2, including support for BasicMessage 2.0 and MediatorCoordination 2.0.
