@@ -18,11 +18,8 @@
 4. [Security & Privacy Considerations](#4-security--privacy-considerations)
 5. [Appendix A: Our Solution (ACCIO)](#5-appendix-a-our-solution-accio)
 
----
-
 ## 1. Abstract
 
----
 To build and operate an enterprise blockchain effectively, we are developing a SaaS-type blockchain technology solution, such as Blockchain as a Service (BaaS). This technology allows for easy configuration changes, offering flexibility and high accessibility.
 
 In particular, with the increasing demand for Self-Sovereign Identity (SSI) based Decentralized Identity (DID) authentication technology, we are planning to integrate powerful DID technology into our BaaS platform. This will be provided as an all-in-one solution, meeting the evolving needs of our users and enhancing the overall functionality and security of blockchain implementations.
@@ -32,8 +29,6 @@ In particular, with the increasing demand for Self-Sovereign Identity (SSI) base
 DID (Decentralized Identifiers) is used as the unique identifier of the certificate. Also, DID allows obtaining public key information for the secure exchange of information between users. Its core technologies are built on Hyperledger Indy (Blockchain) and BaaS (Blockchain-as-a-Service) with Hyperledger Fabric.
 
 ## 2. DID Format
-
----
 
 The name string that shall identify this DID method is: `m2m`
 
@@ -91,8 +86,6 @@ DID Document corresponding to Ex1) above is as follows.
 ```
 
 ## 3. CRUD
-
----
 
 ### Create
 
@@ -212,8 +205,6 @@ DID Document corresponding to Ex1) above is as follows.
 
 ## 4. Security & Privacy Considerations
 
----
-
 ### **Residual Risks**
 
 - Private keys used for signing must be kept confidential. If a key is compromised, the user must promptly deactivate the associated DID.
@@ -225,8 +216,6 @@ DID Document corresponding to Ex1) above is as follows.
     - On the user's agent, the user's personal data is encrypted using the user's private key before storage.
 
 ## 5. Appendix A: Our Solution (ACCIO)
-
----
 
 ### (1) What is ACCIO
 
